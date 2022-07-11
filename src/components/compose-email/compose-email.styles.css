@@ -1,0 +1,46 @@
+.compose-email {
+  border: 1px solid rgba(128, 128, 128, 0.538);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 50rem;
+  min-height: 10rem;
+  margin-bottom: 10px;
+}
+
+.compose-email-sender-info {
+  display: flex;
+  gap: 10px;
+}
+
+#composeEmail {
+  min-width: 100%;
+  margin-block: 20px;
+  font-size: 1.5rem;
+  resize: none;
+  border: none;
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+}
+
+.ml {
+  margin-left: 10px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #1c73e8;
+  color: white;
+  border: none;
+}
+
+.button-left {
+  border-radius: 4px 0 0 4px;
+}
+
+.button-right {
+  border-radius: 0 4px 4px 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.402);
+}
